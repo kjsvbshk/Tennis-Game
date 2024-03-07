@@ -140,7 +140,7 @@ while running:
     text = font.render("Score: " + str(score), True, (0, 0, 0))
     screen.blit(text, (10, 10))
     
-    # Draw touches counter
+    # Draw touches counte
     touches_text = font.render("lost balls: " + str(touch_counter), True, (0, 0, 0))
     screen.blit(touches_text, (500, 10))
 
